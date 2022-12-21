@@ -11,6 +11,17 @@ a {
 	color: #333;
 }
 
+#back {
+	border-radius: 50%;
+	padding: 3px 6px 3px 4px;
+	transition: all 200ms;
+}
+
+#back:hover, #back:focus, #back:active {
+	background-color: #ddd;
+	transition: all 200ms;
+}
+
 header {
 	position: fixed;
 	top: 0px;
